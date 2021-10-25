@@ -1,0 +1,83 @@
+.login {
+    margin: auto;
+    width: 430px;
+    height: 700px;
+    padding: 100px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #fff;
+}
+
+.logo{
+    background: url("img/logo.png") center/cover ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto ;
+    box-shadow: 0 0 2px #5f5f5f,
+                0 0 0 5px #ecf0f3,
+                8px 8px  15px #a7aaaf,
+                -8px -8px 15px #fff;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px ;
+    letter-spacing: .5px;
+}
+.fields{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+.user-input , .pass-input{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #fff;
+
+}
+.fields svg{
+    height: 22px ;
+    margin: 0 10px -3px 25px;
+}
+.sign-in{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Tahoma'sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #fff;
+    transition: .5s;
+}
+.sign-in:hover{
+    background: #37aa91;
+}
+.sign-in:active{
+    background: #1da88a;
+}
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}
